@@ -42,7 +42,7 @@ const languages = glob.sync('./languages/*.json').reduce(
     return dict;
   },
   {
-    default: require(`./languages/en.json`)
+    default: require(`./languages/de.json`)
   }
 );
 
